@@ -1,0 +1,28 @@
+div#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #C9CED5;
+}
+
+div#header-bottom-left {
+  display: flex;
+  align-items: flex-start;
+  height: var(--header-height);
+
+  background-color: white;
+}
+
+div#header-bottom-right {
+  top: 0 !important;
+  color: #004B91 !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 9pt;
+}
+
+#header-bottom-left > .tabmenu,
+div#sr-header-area {
+  display: none;
+}

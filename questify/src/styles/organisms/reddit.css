@@ -1,0 +1,107 @@
+/****************************************************************/
+/* Quest Header */
+body #header-bottom-right a,
+body #header-bottom-right span,
+body #header-bottom-right a:not(#RESSettingsButton)::after
+{
+  font-family: var(--header-font-family);
+  font-size: var(--header-font-size); /* don't expose a RES hidden username */
+  font-weight: normal;
+  color: var(--header-font-col);
+}
+
+#header-bottom-right ::after {
+  font-size: var(--header-font-size) !important;
+}
+
+#header-bottom-right .separator {
+  margin: 0 12px;
+}
+
+/* Make the logout button bold */
+#header-bottom-right form a:last-of-type {
+  font-weight: bold;
+}
+
+
+/****************************************************************/
+/* Sidebar */
+body .sidecontentbox {
+  background-color: var(--box-body-col);
+  border: 1px solid var(--box-border-col);
+}
+
+body .sidecontentbox .title {
+  background-color: var(--box-header-col);
+}
+
+body .sidecontentbox .title h1,
+body .sidecontentbox a.helplink {
+  display: block;  /* Allows use of ::first-letter */
+  color: white;
+  font-weight: bold;
+  font-size: var(--box-header-font-size);
+  font-family: var(--box-header-font-family);
+  text-transform: lowercase;
+  padding: 2px;
+}
+
+body .sidecontentbox .title h1::first-letter {
+  text-transform: uppercase;
+}
+
+/****************************************************************/
+/* Posts and Comments */
+body .entry {
+  padding-right: 0 !important;
+  margin: 0 !important;
+}
+
+.res-commentBoxes > body > .content > .commentarea > .sitetable > .thing,
+body .thing {
+  border: 1px solid var(--box-border-col) !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+}
+
+body .thing .tagline,
+body .thing .title {
+  background-color: var(--box-header-col);
+  padding: 2px;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
+body div.thing .tagline {
+  background-color: var(--box-body-col);
+}
+
+body .thing .tagline > *,
+body .thing .title > * {
+  font-weight: bold;
+  font-size: var(--box-header-font-size);
+  font-family: var(--box-header-font-family);
+}
+
+body div.thing p.title > a.title {
+  color: white !important;
+}
+
+body #siteTable .thing .title {
+  top: 0;
+}
+
+body #siteTable .thing .title .linkflairlabel {
+  float: right;
+}
+
+.rank, .midcol {
+  display: none;
+}
+
+body .top-matter {
+  padding: 0;
+}
+.top-matter > :not(.title) {
+  margin: 4px;
+}

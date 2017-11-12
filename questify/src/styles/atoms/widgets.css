@@ -1,0 +1,77 @@
+.info-icon {
+  background-image: url('data:image/gif;base64,R0lGODlhFwAXAPcFAJCounCJx8La9ktajf39/gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAUALAAAAAAXABcAAAiqAAsIHEiwoMGDAgUEGMCQYQABCAkKaEiRIkSEEwc8FECgowCFDC8WzMjRIwAAJUmODNmxIwCGAFqqHMiyJYGXA2LKZDhwYgCbQIMuvDg0KE6dOwMIrNmSIlKPPAswDHoTZtCoU41aBYp1ANWjVwcsHVDSJlibGQUWBXo2aUKNWnMCHUqTbEucDZGmJciUKoGZPfsCBSzR4UeZIMlGlFqxosiIiRs+XEw5YkAAOw==');
+  width: 23px;
+  height: 23px;
+}
+
+/* TODO: remove these /r/uwaterloo-specific rules from here */
+.side .md ul:nth-of-type(1),
+.titlebox ul li p,
+.sidebox a,
+div.entry > div.top-matter > ul > li > a,
+div.entry > div.top-matter > ul > li a,
+body .quest_btn,
+button {
+  font-family: Arial,sans-serif !important;
+  font-size: 11px !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-variant: small-caps !important;
+  color: rgb(64,111,53) !important;
+  background-color: rgb(222,235,181) !important;
+  letter-spacing: 1px !important;
+  text-decoration: none !important;
+  text-transform: capitalize !important;
+  text-align: center !important;
+  line-height: 20px !important;
+  /*margin-left: 4px !important; */
+  border-width: 1px !important;
+  border-top-color: rgb(142,203,98) !important;
+  border-bottom-color: rgb(114,175,69) !important;
+  border-left-color: rgb(142,203,98) !important;
+  border-right-color: rgb(114,175,69) !important;
+  border-top-style: none !important;
+  border-bottom-style: solid !important;
+  border-left-style: none !important;
+  border-right-style: solid !important;
+  min-height: 20px;
+  /*display: block !important;*/
+  white-space: nowrap !important;
+  cursor: pointer !important;
+}
+
+.side .md ul:nth-of-type(1) a:hover,
+.titlebox ul li p:hover,
+.sidebox a:hover,
+div.entry > div.top-matter > ul > li > a:hover,
+div.entry > div.top-matter > ul > li a:hover,
+body .quest_btn:hover,
+button:hover {
+  font-family: Arial,sans-serif !important;
+  font-size: 11px !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-variant: small-caps !important;
+  color: rgb(58,98,55) !important;
+  background-color: rgb(182,209,146) !important;
+  letter-spacing: 1px !important;
+  text-decoration: none !important;
+  text-transform: capitalize !important;
+  text-align: center !important;
+  border-width: 1px !important;
+  border-top-color: rgb(76,140,64) !important;
+  border-bottom-color: rgb(137,177,113) !important;
+  border-left-color: rgb(76,140,64) !important;
+  border-right-color: rgb(137,177,113) !important;
+  border-top-style: none !important;
+  border-bottom-style: solid !important;
+  border-left-style: none !important;
+  border-right-style: solid !important;
+  /*display: block !important;*/
+  white-space: nowrap !important;
+  cursor: pointer !important;
+}
+
+table {
+
+}

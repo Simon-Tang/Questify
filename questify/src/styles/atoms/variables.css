@@ -1,0 +1,18 @@
+:root {
+  --header-col: rgb(74, 89, 140);
+  --sidebar-col: #ab5b1a;
+  --box-header-col: rgb(115, 130, 181);
+  --box-border-col: rgb(74, 89, 140);
+  --box-body-col: rgb(214,223,239);
+
+  --header-font-family: Arial, Verdana, Helvetica, sans-serif;
+  --header-font-size: 9pt;
+  --header-font-col: #004b91;
+
+  --box-header-font-family: Verdana, Arial, sans-serif;
+  --box-header-font-size: 10px;
+
+  --header-height: 91px;
+  --quest-menu-width: 180px;
+  --sidebar-width: 300px;
+}

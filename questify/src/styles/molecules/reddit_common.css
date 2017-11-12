@@ -1,0 +1,42 @@
+/* Upper header area */
+
+/* Hide some standout RES icons */
+#RESSettingsButton::after {
+  display: none;
+}
+
+#header-bottom-right {
+  display: flex;
+  align-items: baseline;
+  margin-right: 4px;
+}
+
+#header-bottom-right * {
+  text-transform: capitalize;
+}
+
+#header-bottom-right > #mail {
+  top: 1px;
+}
+
+#header-bottom-right > .message-count {
+  color: white;
+}
+
+/* Sidebar stuff */
+body .linkinfo {
+  border-radius: 0;
+  background-color: var(--box-body-col);
+  border: 1px solid var(--box-border-col)
+}
+
+.linkinfo > .info-icon {
+  float: left;
+  margin: 12px;
+  margin-bottom: 24px;
+}
+
+/* Post formatting */
+.link .usertext-body .md {
+  border-radius: 0 !important;
+}

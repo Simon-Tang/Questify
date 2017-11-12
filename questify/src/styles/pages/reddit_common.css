@@ -1,0 +1,10 @@
+div.content {
+  margin-top: calc(var(--header-height) + 2px);
+  margin-left: var(--quest-menu-width);
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+body #siteTable .thing {
+  width: calc(100% - var(--sidebar-width) - 24px);
+}

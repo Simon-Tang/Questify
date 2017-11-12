@@ -1,0 +1,10 @@
+#quest_sidebar {
+  color: var(--sidebar-col);
+  position: fixed;
+  top: calc(2px + var(--header-height));
+  left: 0;
+}
+
+#quest_sidebar .active {
+  font-weight: bold;
+}
