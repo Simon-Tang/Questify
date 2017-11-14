@@ -9,7 +9,6 @@
 
 /* /r/uwaterloo */
 div.entry > div.top-matter > ul > li a,
-div.entry > div.top-matter > ul > li span,
 .titlebox ul li,
 :not(#header-bottom-right) > .flat-list > li a,
 :not(#header-bottom-right) > .flat-list > li span::after,
@@ -44,27 +43,11 @@ button {
 
 body .quest-btn:hover,
 button:hover {
-  font-family: Arial,sans-serif !important;
-  font-size: 11px !important;
-  font-weight: normal !important;
-  font-style: normal !important;
-  font-variant: small-caps !important;
-  color: rgb(58,98,55) !important;
   background-color: rgb(182,209,146) !important;
-  letter-spacing: 1px !important;
-  text-decoration: none !important;
-  text-transform: capitalize !important;
-  text-align: center !important;
-  border-width: 1px !important;
   border-top-color: rgb(76,140,64) !important;
   border-bottom-color: rgb(137,177,113) !important;
   border-left-color: rgb(76,140,64) !important;
   border-right-color: rgb(137,177,113) !important;
-  border-top-style: none !important;
-  border-bottom-style: solid !important;
-  border-left-style: none !important;
-  border-right-style: solid !important;
-  cursor: pointer !important;
 }
 
 table {

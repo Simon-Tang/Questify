@@ -32,19 +32,7 @@ function makeQuestButton(element) {
     textAlign: 'center',
     lineHeight: '20px',
   };
-  Object.assign(element.style, textStyles, {
-    borderWidth: '1px',
-    borderTopColor: 'rgb(142,203,98)',
-    borderBottomColor: 'rgb(114,175,69)',
-    borderLeftColor: 'rgb(142,203,98)',
-    borderRightColor: 'rgb(114,175,69)',
-    borderTopStyle: 'none',
-    borderBottomStyle: 'solid',
-    borderLeftStyle: 'none',
-    borderRightStyle: 'solid',
-    minHeight: '20px',
-    cursor: 'pointer',
-  });
+  Object.assign(element.style, textStyles);
   // Iterate over all children, even nested ones
   element.querySelectorAll('*').forEach(child => {
     Object.assign(child.style, textStyles, {

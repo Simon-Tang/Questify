@@ -48,21 +48,19 @@ body .sidecontentbox .title {
 .titlebox::before,
 body .sidecontentbox .title h1,
 body .sidecontentbox a.helplink {
-  display: block;  /* Allows use of ::first-letter */
+  display: block;
   color: white !important;
   font-weight: bold;
-  font-size: var(--box-header-font-size) !important;
   font-family: var(--box-header-font-family) !important;
-  text-transform: lowercase;
   padding: 2px;
-}
-
-body .sidecontentbox .title h1::first-letter {
-  text-transform: uppercase;
 }
 
 .sidebox .morelink {
   border: 0;
+}
+
+.sidecontentbox .helplink.access-required {
+  margin-top: 0;
 }
 
 /****************************************************************/

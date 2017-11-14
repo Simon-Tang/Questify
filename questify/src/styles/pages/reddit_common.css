@@ -1,8 +1,12 @@
 div.content {
-  margin-top: calc(var(--header-height) + 2px);
+  margin-top: calc(var(--header-height) + 12px);
   margin-left: var(--quest-menu-width);
   padding-top: 30px;
   padding-left: 20px;
+}
+
+body > .side {
+  margin-top: 45px;
 }
 
 body #siteTable .thing {
