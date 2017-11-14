@@ -34,7 +34,24 @@ body .sidecontentbox {
 }
 
 .titlebox::before {
-  content: "Sidebar";
+  content: "Academic Information";
+}
+
+/* Moderators, Recently viewed links */
+.side .spacer:nth-last-child(3) > .sidecontentbox > .title > h1,
+.side .spacer:nth-last-child(2) > .sidecontentbox > .title > h1 {
+  font-size: 0 !important;
+}
+
+.side .spacer:nth-last-child(3) > .sidecontentbox > .title > h1::before {
+  content: "Finance Information";
+  font-size: var(--box-header-font-size) !important;
+  text-transform: none !important;
+}
+.side .spacer:nth-last-child(2) > .sidecontentbox > .title > h1::before {
+  content: "Other Useful Links";
+  font-size: var(--box-header-font-size) !important;
+  text-transform: none !important;
 }
 
 .titlebox::before,
