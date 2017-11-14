@@ -10,7 +10,7 @@
 .sidebox a,
 div.entry > div.top-matter > ul > li > a,
 div.entry > div.top-matter > ul > li a,
-body .quest_btn,
+body .quest-btn,
 button {
   font-family: Arial,sans-serif !important;
   font-size: 11px !important;
@@ -45,7 +45,7 @@ button {
 .sidebox a:hover,
 div.entry > div.top-matter > ul > li > a:hover,
 div.entry > div.top-matter > ul > li a:hover,
-body .quest_btn:hover,
+body .quest-btn:hover,
 button:hover {
   font-family: Arial,sans-serif !important;
   font-size: 11px !important;

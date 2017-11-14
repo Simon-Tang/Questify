@@ -1,25 +1,25 @@
 /****************************************************************/
 /* Quest Sidebar */
-#quest_sidebar {
+#quest-sidebar {
   width: var(--quest-menu-width);
   height: calc(100% - var(--header-height));
   border: 1px solid #E6E6E6;
   box-sizing: border-box;
 }
 
-#quest_sidebar > * {
+#quest-sidebar > * {
   /*width: 100%;*/
   font-family: Arial, Helvetica;
   font-size: 9pt;
 }
 
-#quest_sidebar * {
+#quest-sidebar * {
   color: var(--sidebar-col);
   background-color: #F9F9F9;
   text-transform: capitalize;
 }
 
-.quest_sidebar_header {
+.quest-sidebar_header {
   height: 24px;
   background-color: rgb(241,245,246);
   border: 1px solid rgb(201, 206, 213);
@@ -27,11 +27,11 @@
   font-size: 10pt !important;
 }
 
-.quest_sidebar_item {
+.quest-sidebar_item {
   padding-left: 12px;
   padding-bottom: 5px;
 }
 
-.quest_sidebar_item > a {
+.quest-sidebar_item > a {
   cursor: pointer;
 }

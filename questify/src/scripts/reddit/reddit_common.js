@@ -7,16 +7,16 @@ function getRedditUsername() {
 
 class QuestSidebar extends Component {
   constructor() {
-    super('nav', 'quest_sidebar');
+    super('nav', 'quest-sidebar');
     const header = this.element.appendChild(createElement({
-      classList: ['quest_sidebar_header'],
+      classList: ['quest-sidebar_header'],
       textContent: 'Menu',
     }));
     // header.appendChild();
   }
   addLink(label, onClick, isActive) {
     const item = createElement({
-      classList: ['quest_sidebar_item'],
+      classList: ['quest-sidebar_item'],
       children: [createElement({
         type: 'a',
         textContent: label,
@@ -101,6 +101,6 @@ document.querySelectorAll(`
   div.entry > div.top-matter > ul > li > a,
   .titlebox ul li p,
   .sidebox a
-`).forEach(btn => btn.classList.add('quest_btn'));
+`).forEach(btn => btn.classList.add('quest-btn'));
 
 document.querySelector('html').classList.remove('res-commentBoxes-rounded');
