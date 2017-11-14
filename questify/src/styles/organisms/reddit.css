@@ -26,22 +26,33 @@ body #header-bottom-right a:not(#RESSettingsButton)::after
 
 /****************************************************************/
 /* Sidebar */
+.titlebox,
 body .sidecontentbox {
   background-color: var(--box-body-col);
   border: 1px solid var(--box-border-col);
+  padding: 2px;
 }
 
+.titlebox::before {
+  content: "Sidebar";
+}
+
+.titlebox::before,
 body .sidecontentbox .title {
+  margin: -3px;
+  border: 1px solid var(--box-border-col);
+  width: auto;
   background-color: var(--box-header-col);
 }
 
+.titlebox::before,
 body .sidecontentbox .title h1,
 body .sidecontentbox a.helplink {
   display: block;  /* Allows use of ::first-letter */
-  color: white;
+  color: white !important;
   font-weight: bold;
-  font-size: var(--box-header-font-size);
-  font-family: var(--box-header-font-family);
+  font-size: var(--box-header-font-size) !important;
+  font-family: var(--box-header-font-family) !important;
   text-transform: lowercase;
   padding: 2px;
 }

@@ -39,7 +39,7 @@
         "src/styles/atoms/reddit.css",
         "src/styles/molecules/reddit_common.css",
         "src/styles/organisms/reddit.css",
-        "src/styles/templates/reddit_header.css",
+        "src/styles/templates/reddit.css",
         "src/styles/pages/reddit_common.css"
       ],
       "js": [

@@ -102,7 +102,7 @@ document.querySelectorAll(`
   div.entry > div.top-matter > ul > li a,
   div.entry > div.top-matter > ul > li span,
   .titlebox ul li,
-  .flat-list > li a,
+  :not(#header-bottom-right) > .flat-list > li a,
   .sidebox a
 `).forEach(makeQuestButton);
 
