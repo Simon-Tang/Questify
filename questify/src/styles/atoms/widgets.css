@@ -4,12 +4,15 @@
   height: 23px;
 }
 
-/* TODO: remove these /r/uwaterloo-specific rules from here */
-.side .md ul:nth-of-type(1),
-.titlebox ul li p,
-.sidebox a,
-div.entry > div.top-matter > ul > li > a,
+/* NOTE: specific sites here due to JS execution delay, but not specific enough for full effect */
+/* TODO: remove these site-specific rules from here - maybe need a build system? */
+
+/* /r/uwaterloo */
 div.entry > div.top-matter > ul > li a,
+div.entry > div.top-matter > ul > li span,
+.titlebox ul li,
+.sidebox a,
+
 body .quest-btn,
 button {
   font-family: Arial,sans-serif !important;
@@ -24,7 +27,6 @@ button {
   text-transform: capitalize !important;
   text-align: center !important;
   line-height: 20px !important;
-  /*margin-left: 4px !important; */
   border-width: 1px !important;
   border-top-color: rgb(142,203,98) !important;
   border-bottom-color: rgb(114,175,69) !important;
@@ -35,16 +37,9 @@ button {
   border-left-style: none !important;
   border-right-style: solid !important;
   min-height: 20px;
-  /*display: block !important;*/
-  white-space: nowrap !important;
   cursor: pointer !important;
 }
 
-.side .md ul:nth-of-type(1) a:hover,
-.titlebox ul li p:hover,
-.sidebox a:hover,
-div.entry > div.top-matter > ul > li > a:hover,
-div.entry > div.top-matter > ul > li a:hover,
 body .quest-btn:hover,
 button:hover {
   font-family: Arial,sans-serif !important;
@@ -67,8 +62,6 @@ button:hover {
   border-bottom-style: solid !important;
   border-left-style: none !important;
   border-right-style: solid !important;
-  /*display: block !important;*/
-  white-space: nowrap !important;
   cursor: pointer !important;
 }
 

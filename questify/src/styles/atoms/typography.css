@@ -1,13 +1,18 @@
+h1,
 .quest-h1 {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 14px;
-  font-weight: bold;
-  font-style: normal;
-  color: var(--header-col);
-  letter-spacing: 1px;
   margin-bottom: 10px;
   padding-bottom: 3px;
   border-bottom: 1px solid var(--header-col);
   width: 100%;
   display: block;
+}
+
+h1, h1 *,
+.quest-h1, .quest-h1 * {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  color: var(--header-col) !important;
+  letter-spacing: 1px;
 }

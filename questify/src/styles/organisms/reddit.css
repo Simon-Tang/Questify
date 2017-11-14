@@ -50,11 +50,20 @@ body .sidecontentbox .title h1::first-letter {
   text-transform: uppercase;
 }
 
+.sidebox .morelink {
+  border: 0;
+}
+
 /****************************************************************/
 /* Posts and Comments */
 body .entry {
   padding-right: 0 !important;
-  margin: 0 !important;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+body .entry > :not(.tagline):not(.top-matter) {
+  margin-left: 4px;
 }
 
 .res-commentBoxes > body > .content > .commentarea > .sitetable > .thing,

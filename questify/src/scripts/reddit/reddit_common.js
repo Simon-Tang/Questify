@@ -97,10 +97,14 @@ document.querySelectorAll('.thing').forEach(post => {
   });
 });
 
+// Manually applying styles now
 document.querySelectorAll(`
-  div.entry > div.top-matter > ul > li > a,
-  .titlebox ul li p,
+  div.entry > div.top-matter > ul > li a,
+  div.entry > div.top-matter > ul > li span,
+  .titlebox ul li,
   .sidebox a
-`).forEach(btn => btn.classList.add('quest-btn'));
+`).forEach(makeQuestButton);
 
 document.querySelector('html').classList.remove('res-commentBoxes-rounded');
+
+document.querySelectorAll('h1').forEach(e => e.classList.add('quest-h1'));
