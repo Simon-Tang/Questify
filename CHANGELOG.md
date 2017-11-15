@@ -7,3 +7,9 @@
 ### Added
 - Additional sidebar styling for https://www.reddit.com/r/uwaterloo
 - CHANGELOG.md
+
+## [0.0.3] - 2015-11-15
+### Added
+- Explicit "# points" text for posts
+### Changed
+- Restored red highlights to RES new comments marker

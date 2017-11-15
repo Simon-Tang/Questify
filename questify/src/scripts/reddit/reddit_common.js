@@ -83,18 +83,26 @@ document.querySelectorAll('.thing').forEach(post => {
     title.prepend(newArrow);
   });
   // Add post score
-  ['unvoted', 'dislikes', 'likes'].forEach(c => {
-    const domain = title.querySelector('.domain');
-    const origScore = post.querySelector(`.score.${c}`);
-    if (origScore) {
-      const score = createElement({
-        type: 'span',
-        textContent: ` (${origScore.textContent}) `,
-        classList: origScore.classList,
-      });
-      title.insertBefore(score, domain);
-    }
-  });
+  if (title.classList.contains('title')) {
+    ['unvoted', 'dislikes', 'likes'].forEach(c => {
+      const domain = title.querySelector('.domain');
+      const origScore = post.querySelector(`.score.${c}`);
+      if (origScore) {
+        let pts;
+        if (origScore.textContent === '1') {
+          pts = '1 point';
+        } else {
+          pts = origScore.textContent.replace(' points', '') + ' points';
+        }
+        const score = createElement({
+          type: 'span',
+          textContent: ` (${pts}) `,
+          classList: origScore.classList,
+        });
+        title.insertBefore(score, domain);
+      }
+    });
+  }
 });
 
 // Manually applying styles now
@@ -102,6 +110,8 @@ document.querySelectorAll(`
   div.entry > div.top-matter > ul > li a,
   .titlebox ul li,
   :not(#header-bottom-right) > .flat-list > li a,
+  .side > div > div > ul > li > div > div.right > a,
+  .account-activity-box a,
   .sidebox a
 `).forEach(makeQuestButton);
 

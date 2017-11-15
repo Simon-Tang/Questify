@@ -12,6 +12,7 @@ div.entry > div.top-matter > ul > li a,
 .titlebox ul li,
 :not(#header-bottom-right) > .flat-list > li a,
 :not(#header-bottom-right) > .flat-list > li span::after,
+.side > div > div > ul > li > div > div.right > a,
 .sidebox a,
 
 body .quest-btn,

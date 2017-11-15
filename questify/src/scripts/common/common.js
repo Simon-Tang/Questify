@@ -34,7 +34,7 @@ function makeQuestButton(element) {
   };
   Object.assign(element.style, textStyles);
   // Iterate over all children, even nested ones
-  element.querySelectorAll('*').forEach(child => {
+  element.querySelectorAll(':not(.newComments)').forEach(child => {
     Object.assign(child.style, textStyles, {
       background: 'none',
       margin: 'none !important',
