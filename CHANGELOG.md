@@ -14,6 +14,6 @@
 ### Changed
 - Restored red highlights to RES new comments marker
 
-## [0.0.4] - 2015-11-16
+## [0.0.5] - 2015-11-16
 ### Changed
 - Swapped front page link and /r/uwaterloo link in the header

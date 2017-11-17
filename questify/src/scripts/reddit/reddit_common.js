@@ -58,9 +58,11 @@ if (resSettingsButton) {
 }
 
 // Swap home and /r/uwaterloo links in header
-const logo = document.querySelector('#header-img');
-[logo.href, homeLink.href] = [homeLink.href, logo.href];
-document.querySelector('#header-img-a').title = '/r/uwaterloo';
+const logo = document.querySelector('#header-img-a');
+const [homeLinkHref, logoHref] = [homeLink.querySelector('a').href, logo.href];
+logo.setAttribute('href', homeLinkHref);
+homeLink.querySelector('a').setAttribute('href', logoHref);
+logo.title = '/r/uwaterloo';
 homeLink.title = 'Front page';
 
 // Move upvote/downvote buttons into titlebars, for both posts and comments
