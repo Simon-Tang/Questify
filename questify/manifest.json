@@ -1,7 +1,7 @@
 {
   "name": "Questify",
-  "version": "0.0.3",
-  "version_name": "0.0.3 Disruptive Beta",
+  "version": "0.0.4",
+  "version_name": "0.0.4 Disruptive Beta",
   "author": "Simon Tang",
   "manifest_version": 2,
   "description": "Converts the World Wide Web into the UW Quest student info system.",
@@ -14,9 +14,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.reddit.com/r/uwaterloo/*",
-        "https://qq.reddit.com/r/uwaterloo/*",
-        "https://st.reddit.com/r/uwaterloo/*"
+        "https://*.reddit.com/r/uwaterloo/*"
       ],
       "css": [
         "src/styles/atoms/variables.css",
@@ -31,9 +29,7 @@
     },
     {
       "matches": [
-        "https://www.reddit.com/r/uwaterloo/*",
-        "https://qq.reddit.com/r/uwaterloo/*",
-        "https://st.reddit.com/r/uwaterloo/*"
+        "https://*.reddit.com/r/uwaterloo/*"
       ],
       "css": [
         "src/styles/atoms/reddit.css",
@@ -48,24 +44,12 @@
     },
     {
       "matches": [
-        "https://www.reddit.com/r/uwaterloo/",
-        "https://www.reddit.com/r/uwaterloo/new/*",
-        "https://www.reddit.com/r/uwaterloo/rising/*",
-        "https://www.reddit.com/r/uwaterloo/controversial/*",
-        "https://www.reddit.com/r/uwaterloo/top/*",
-        "https://www.reddit.com/r/uwaterloo/gilded/*",
-        "https://qq.reddit.com/r/uwaterloo/",
-        "https://qq.reddit.com/r/uwaterloo/new/*",
-        "https://qq.reddit.com/r/uwaterloo/rising/*",
-        "https://qq.reddit.com/r/uwaterloo/controversial/*",
-        "https://qq.reddit.com/r/uwaterloo/top/*",
-        "https://qq.reddit.com/r/uwaterloo/gilded/*",
-        "https://st.reddit.com/r/uwaterloo/",
-        "https://st.reddit.com/r/uwaterloo/new/*",
-        "https://st.reddit.com/r/uwaterloo/rising/*",
-        "https://st.reddit.com/r/uwaterloo/controversial/*",
-        "https://st.reddit.com/r/uwaterloo/top/*",
-        "https://st.reddit.com/r/uwaterloo/gilded/*"
+        "https://*.reddit.com/r/uwaterloo/",
+        "https://*.reddit.com/r/uwaterloo/new/*",
+        "https://*.reddit.com/r/uwaterloo/rising/*",
+        "https://*.reddit.com/r/uwaterloo/controversial/*",
+        "https://*.reddit.com/r/uwaterloo/top/*",
+        "https://*.reddit.com/r/uwaterloo/gilded/*"
       ],
       "css": [
         "src/styles/pages/reddit_front.css"
@@ -76,9 +60,7 @@
     },
     {
       "matches": [
-        "https://www.reddit.com/r/uwaterloo/comments/*",
-        "https://qq.reddit.com/r/uwaterloo/comments/*",
-        "https://st.reddit.com/r/uwaterloo/comments/*"
+        "https://*.reddit.com/r/uwaterloo/comments/*"
       ],
       "css": [
         "src/styles/pages/reddit_comments.css"
