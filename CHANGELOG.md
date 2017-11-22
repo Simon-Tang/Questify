@@ -17,3 +17,7 @@
 ## [0.0.5] - 2015-11-16
 ### Changed
 - Swapped front page link and /r/uwaterloo link in the header
+
+## [0.0.6] - 2015-11-21
+### Added
+- Fixed submission rules box positioning

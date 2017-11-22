@@ -12,3 +12,7 @@ body > .side {
 body #siteTable .thing {
   width: calc(100% - var(--sidebar-width) - 24px);
 }
+
+.submit_text.roundfield {
+  top: 210px;
+}
