@@ -1,7 +1,7 @@
 {
   "name": "Questify",
-  "version": "0.0.6",
-  "version_name": "0.0.6 Disruptive Beta",
+  "version": "0.0.7",
+  "version_name": "0.0.7 Disruptive Beta",
   "author": "Simon Tang",
   "manifest_version": 2,
   "description": "Converts the World Wide Web into the UW Quest student info system.",

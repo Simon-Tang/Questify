@@ -21,3 +21,7 @@
 ## [0.0.6] - 2015-11-21
 ### Added
 - Fixed submission rules box positioning
+
+## [0.0.7] - 2015-11-26
+### Changed
+- Fixed submission rules box positioning
